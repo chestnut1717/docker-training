@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.send(`
     <h1>Welcome to Docker!</h1>
-    <img src="images/whale-docker.gif" alt="whale  moves"  width="250" />
+    <img src="https://media.tenor.com/z3Vqx6hmE5QAAAAC/whale-docker.gif" alt="whale  moves"  width="250">
   `);
 })
 
